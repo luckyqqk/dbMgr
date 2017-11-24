@@ -1,6 +1,6 @@
 {
   "name": "db-mgr",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "mysql query sql mgr use generic-pool",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/luckyqqk/dbMgr#readme",
   "dependencies": {
-    "generic-pool":"2.0.4",
-    "mysql":"2.14.1"
+    "mysql": "^2.15.0"
   }
 }

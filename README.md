@@ -9,8 +9,7 @@ mysql query sql mgr use generic-pool
 
 ### 依赖
 ```
-"generic-pool":"2.0.4",
-"mysql":"2.14.1"
+"mysql":"^2.15.0"
 ```
 ### 后续目标
 将需要执行sql的情景缓存,定时更新(加入批量更新)到数据库.
