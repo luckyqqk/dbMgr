@@ -1,27 +1,75 @@
 {
-  "name": "db-mgr",
-  "version": "1.0.2",
+  "_args": [
+    [
+      "db-mgr",
+      "/Projects/svn/Server/chariot/game-server"
+    ]
+  ],
+  "_from": "db-mgr@latest",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/db-mgr",
+  "_nodeVersion": "6.2.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/db-mgr-1.0.2.tgz_1511509456287_0.2338834695983678"
+  },
+  "_npmUser": {
+    "email": "luckyqqk@163.com",
+    "name": "luckyqqk"
+  },
+  "_npmVersion": "3.8.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "db-mgr",
+    "raw": "db-mgr",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/pomelo-data-mgr"
+  ],
+  "_resolved": "https://registry.npmjs.org/db-mgr/-/db-mgr-1.0.2.tgz",
+  "_shasum": "73e0d37009782b79020661a4bac51fa29a1682dc",
+  "_shrinkwrap": null,
+  "_spec": "db-mgr",
+  "_where": "/Projects/svn/Server/chariot/game-server",
+  "author": "luckyqqk",
+  "bugs": {
+    "url": "https://github.com/luckyqqk/dbMgr/issues"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  },
   "description": "mysql query sql mgr use generic-pool",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "73e0d37009782b79020661a4bac51fa29a1682dc",
+    "tarball": "https://registry.npmjs.org/db-mgr/-/db-mgr-1.0.2.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luckyqqk/dbMgr.git"
-  },
+  "homepage": "https://github.com/luckyqqk/dbMgr#readme",
   "keywords": [
     "db-mgr",
     "mysql",
     "query"
   ],
-  "author": "luckyqqk",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luckyqqk/dbMgr/issues"
+  "main": "index.js",
+  "maintainers": [
+    "luckyqqk <luckyqqk@163.com>"
+  ],
+  "name": "db-mgr",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyqqk/dbMgr.git"
   },
-  "homepage": "https://github.com/luckyqqk/dbMgr#readme",
-  "dependencies": {
-    "mysql": "^2.15.0"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
 }
