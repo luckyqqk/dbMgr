@@ -1,5 +1,5 @@
 # dbMgr
-mysql query sql mgr use generic-pool
+mysql query sql mgr
 
 ### 设计目的
 项目中需要执行的sql是有峰值的,某希望在峰值时,不会对mysql的通道造成破坏性伤害.
