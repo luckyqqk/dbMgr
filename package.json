@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      "db-mgr",
+      "/Projects/svn/Server/chariot/game-server"
+    ],
+    [
+      "db-mgr@^1.0.3",
+      "/Projects/svn/Server/chariot/game-server/node_modules/pomelo-data-mgr"
+    ]
+  ],
+  "_from": "db-mgr@^1.0.3",
+  "_id": "db-mgr@1.0.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/db-mgr",
+  "_nodeVersion": "6.2.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/db-mgr-1.0.3.tgz_1514878496640_0.8694273941218853"
+  },
+  "_npmUser": {
+    "email": "luckyqqk@163.com",
+    "name": "luckyqqk"
+  },
+  "_npmVersion": "3.8.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "db-mgr",
+    "raw": "db-mgr@^1.0.3",
+    "rawSpec": "^1.0.3",
+    "scope": null,
+    "spec": ">=1.0.3 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/db-table",
+    "/pomelo-data-mgr"
+  ],
+  "_resolved": "https://registry.npmjs.org/db-mgr/-/db-mgr-1.0.3.tgz",
+  "_shasum": "f6269f9a313661e1ddc2b7c206489a9b28f397fc",
+  "_shrinkwrap": null,
+  "_spec": "db-mgr@^1.0.3",
+  "_where": "/Projects/svn/Server/chariot/game-server/node_modules/pomelo-data-mgr",
+  "author": {
+    "name": "luckyqqk"
+  },
+  "bugs": {
+    "url": "https://github.com/luckyqqk/dbMgr/issues"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0"
+  },
+  "description": "mysql query sql mgr use generic-pool",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "f6269f9a313661e1ddc2b7c206489a9b28f397fc",
+    "tarball": "https://registry.npmjs.org/db-mgr/-/db-mgr-1.0.3.tgz"
+  },
+  "gitHead": "daf3c12836d3a1c0e928da24a33b59a87e42be75",
+  "homepage": "https://github.com/luckyqqk/dbMgr#readme",
+  "keywords": [
+    "db-mgr",
+    "mysql",
+    "query"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "luckyqqk@163.com",
+      "name": "luckyqqk"
+    }
+  ],
+  "name": "db-mgr",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckyqqk/dbMgr.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
+}
